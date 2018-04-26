@@ -1,0 +1,651 @@
+.alumni-login-body   
+{
+    background-image: url('../img/background/CBM.jpg');
+     background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+.avatar-form{
+	width: 15%;
+    margin-left: 3%;
+}
+
+.form-control, .form-group .form-control {
+    border: 1;
+    color: black;
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400;
+ }
+
+.logo{
+    display: block;
+    height: auto;
+    width: 56px;
+}
+.form-horizontal .form-group {
+    margin-left: 6px;
+    margin-right: 2px;
+}
+
+}
+.btn{
+	    margin-left: 20%;
+}
+.user-actions{
+    float: none !important;
+    margin-top: -6px;
+  }
+
+
+.update-form
+{
+    box-sizing: border-box;
+}
+.image-user
+{
+    margin-left: 18%;
+}
+.user-panel
+{
+  background-color: #feeeee;
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden;
+  margin-left: -3%;
+}
+.users-panel
+{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  margin-left: 0;
+  height: 453px;
+
+}
+.img-circle
+{
+    margin-left: 9%;
+}
+.img-profile{
+    margin-left: 30%;
+    border-radius: 51%;
+    height:100px;
+    width:100px;
+}
+.main-sidebar
+{
+    background-color: #222d32;
+    margin-top: 0px;
+    min-height: 100%;
+}
+.user-name
+{
+    
+    color: #f0f3f5;
+}
+.navbar-default 
+{
+    background-color: #133cd2;
+    border-color: #4c80a5;
+    margin-left: -1px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #eae4e4;
+}
+.import-form
+{
+    margin-left: 25%;
+}
+#nav{
+    width: 700px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+#nav li{
+    float: right;
+}
+#nav li a{
+    background-color: green;
+    display: block;
+   
+    line-height: 40px;
+    width: 150px;
+    text-align: center; 
+    text-decoration: none;
+    color: white;
+    transition: 2s background-color ease 0s;
+    border-radius: 5px 2px 5px 2px;
+}
+#nav li a:hover{
+    background-color: lightgreen;
+    border-bottom:1px solid black;
+
+}
+.navbar-right
+{
+    margin-right: -160px;
+}
+.home-alumni
+{
+    width: 44%;
+    margin-left: 28%;
+}
+.details    
+{
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#c12929, #f5f3f3);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400;
+}
+.modal-login, .modal-account
+{
+    background: rebeccapurple;
+}
+.account-text, .success-user, .login-text, .text-error, .success-modal, .login-heading, .fa-icon, .checkbox, .table-hover, .input-txt
+{
+    color: aliceblue;
+}
+.modal-success, .success-modal
+{
+    background: green;
+}
+.errror-modal
+{
+    width: 25%;
+}
+.errror-header
+{
+    background: red;
+}
+.bg-alumni, .home-alumni-bg
+{
+    background-color: beige;
+}
+.login
+{
+    width: 43%;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.bg-home
+{
+    background-color: green;
+}
+.admin-body
+{
+     
+}
+.panel-login
+{
+    background-color: rgba(132, 99, 99, 0.2);
+}
+
+
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.data, .table-hover, .disable-modal, .success-user
+{
+        color: #202123;
+}
+.feedback-message, .pull-left
+{
+    color: black;
+}
+
+.createEvent
+{
+    width: 66%;
+}
+.adduser
+{
+    margin-top: -51%;
+}
+.asset-print-body
+{
+  padding:0 50px;
+}
+
+
+.panel-login input{
+    color:black;
+}
+
+.form-error{
+    color:red;
+}
+
+
+.fc-scroller{
+    overflow-y: auto !important;
+    height: 410px !important;
+}
+
+.fc-agendaWeek-view .fc-scroller, .fc-agendaDay-view .fc-scroller{
+    overflow-y: auto !important;
+    height: 350px !important;
+}
+
+.alumni_menus{
+    margin-right: 36px;
+    margin-top: 4px;
+}
+
+.dataTable td, .dataTable th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dataTable tbody tr:hover{
+    background:blue;
+    color:#fff;
+}
+.modal-danger
+{
+    background-color: red;
+}
+.creatEventsModal
+{
+    background-color: blue;
+}
+.avatarAdmin
+{
+    margin-right: -15%;
+}
+.headerSize
+{
+    margin-top: -2%;
+    margin-left: -2px;
+}
+.mainfooter
+{
+    margin-top: 8%;
+}
+.notifications
+{
+    margin-left: 66%;
+}
+
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+    background-color: #3c8dbc;
+}
+
+
+.main-header .navbar {
+    background: #3c8dbc;
+}
+
+a {
+    color: #fff;
+}
+
+li.menu-open > a {
+    background-color: #3c8dbc !important;
+}
+
+.mainfooter {
+    margin-top: 0%;
+}
+
+#UserPictureUp{
+    border-radius: 50%;
+    border: 1px solid #0a1be0;
+    height:100px;
+    width:100px;
+}
+
+.user-picture-container{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#UpdateUserAccountModal .modal-content {
+    padding-bottom: 20px;
+}
+
+#changepassword_container{
+    display: none;
+}
+.alumni-header
+{
+    margin-left: 0px;
+}
+
+
+.wizard > .content {
+
+  min-height: 330px !important;
+}
+
+.employment-details input, .employment-details label {
+
+    float:left;
+    margin-left:20px;
+
+}
+
+.employment-details label {
+
+    margin-left:10px;
+
+}
+
+.wizard > .content > .body {
+
+    padding: 0px !important;
+
+}
+
+.OtherJobInfo{
+    display: none;
+}
+
+.importExcel{
+    margin-right:20px;
+}
+
+
+.fc-title,.fc-time{
+    color: #fff !important;
+}
+
+label.checkbox{
+    color:#000 !important;
+}
+
+#officerPictureUp{
+    border-radius: 5%;
+    border: 1px solid #0a1be0;
+    height:100px;
+    width:100px;
+}
+
+#reports_filter .form-group{
+
+    width: 17%;
+    float: left;
+    margin-bottom: 0px;
+
+}
+
+#reports_filter .form-group .input-group-addon{
+
+    border: 1px solid #ccd0d2;
+    border-radius: 1px;
+}
+
+.viewAnounce{
+    width: 35%;
+}
+
+.fa-camera{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    color: #666;
+    background: #d2d6de;
+    background-color: rgb(210, 214, 222);
+    border-radius: 50%;
+    text-align: center;
+    left: 18px;
+    margin-left: 37%;
+    margin-top: -12%;
+}
+.myCarousel{
+    height: 30%;
+    width: 100%;
+}
+.carousel{
+    position: relative;
+    width: 99%;
+    margin-left: auto;
+}
+.carousel-inner {
+    overflow: hidden;
+    width: 52%;
+    height: 42%;
+    margin-left: 25%;
+}
+.dropdown-menu{
+    background-color: #3c8dbc;
+}
+
+.info-box {
+    width: 90%;
+    min-height: 58px;
+}
+
+
+.info-box-icon {
+    height: 58px;
+    line-height: 60px;
+}
+
+.generate-report-btn{
+    height:62px;
+}
+
+
+
+
+
+.header-title{
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:20px;
+}
+.header-title img{
+    height: 15%;
+    width: 80%;
+}
+
+
+.totalSales-con{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+.asset-print-body{
+  padding:0 10px;
+}
+
+.asset-print-table{
+
+    width:100%;
+}
+
+.asset-print-table td{
+
+    padding-left:5px;
+    padding-right: 5px;
+    font-size:12px;
+}
+
+.asset-print-table th{
+
+    font-size:12px;
+}
+
+.add-alumni-btn{
+    margin-right:20px;
+}
+#googlemap{
+    margin-left: 0%;
+    width: 100%;
+}
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+.pac-card {
+    font-family: Roboto;
+}
+#notable-alumni{
+    color: #3097D1;
+}
+
+.footer-left{
+    float:left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.footer-right{
+    float:right;
+    width: 50%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.position-table .actions .btn{
+
+float:right;
+
+}
+
+.position-table th.actions{
+
+text-align:right;
+
+padding-right: 20px;
+
+}
+
+.modal-md-c{
+    width: 70%;
+}
+
+.notable-alumni-img{
+    height: 130px;
+    width:auto;
+}
+
+.username a{
+    color:skyblue;
+    cursor: pointer;
+}
+
+
+.dropdown-menu > li > a {
+    font-weight: 400;
+    color: #fff;
+}
+
+.batchmates-con img{
+    width: 128px;
+    height: 128px;
+}
+
+.box{
+    margin-bottom: 0px;
+}
+
+
+.batchmates-con{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.alumni-con .content {
+    padding-bottom: 0px;
+}
+
+.users-list > li {
+    width: 20%;
+}
+
+.alumni-con .users-list > li img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #12b0ef;
+}
+
+.event-status-alumni{
+    margin-top:5px;
+}
+
+.eventList-con,.eventList-con-desc{
+    height: 440px;
+    overflow-y: auto;
+}
+
+.nav-stacked > li{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.nav-stacked .selected{
+    background: #f3f3f5;
+}
+.
